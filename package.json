@@ -1,0 +1,25 @@
+{
+  "name": "sahran",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omaraalqarni/sahran.git"
+  },
+  "author": "Omar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omaraalqarni/sahran/issues"
+  },
+  "homepage": "https://github.com/omaraalqarni/sahran#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "pg": "^8.7.3"
+  }
+}
