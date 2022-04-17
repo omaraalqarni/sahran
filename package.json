@@ -2,10 +2,10 @@
   "name": "sahran",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./controller/server.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/omaraalqarni/sahran#readme",
   "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.3.12",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "node-fetch": "^3.2.3",
     "pg": "^8.7.3"
   }
 }
